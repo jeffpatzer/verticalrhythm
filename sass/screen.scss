@@ -3,17 +3,19 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+// @import "compass/reset";
 
-@import "compass";
+@import "_vertical_rhythm.scss";
+
+// @import "compass";
 
 $base-font-size: 13px;
 $base-line-height: 24px;
 @include establish-baseline();
 
 h1 {
-  @include adjust-font-size-to(24px);
-  @include rhythm-borders(1px, 0.3, $base-font-size, dashed);
+  // @include adjust-font-size-to(24px);
+  // @include rhythm-borders(1px, 0.5, $base-font-size, dashed);
   // @include trailing-border(1px, 0, $base-font-size, dashed);
   // @include margin-trailer(.3);
 }
@@ -40,7 +42,7 @@ ul {
 }
 
 body {
-  padding: 10px;
+  // padding: 10px;
 }
 
 h1, h2 {
