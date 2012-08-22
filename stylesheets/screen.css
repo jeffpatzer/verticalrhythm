@@ -2,35 +2,23 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 59, ../sass/_vertical_rhythm.scss */
 * html {
-  font-size: 81.25%;
-}
+  font-size: 81.25%; }
 
-/* line 62, ../sass/_vertical_rhythm.scss */
 html {
   font-size: 13px;
-  line-height: 1.846em;
-}
+  line-height: 1.846em; }
 
-/* line 23, ../sass/screen.scss */
 h2 {
   font-size: 1.385em;
-  line-height: 1.333em;
-}
+  line-height: 1.333em; }
 
-/* line 27, ../sass/screen.scss */
 h3 {
   font-size: 1.077em;
-  line-height: 1.714em;
-}
+  line-height: 1.714em; }
 
-/* line 48, ../sass/screen.scss */
 h1, h2 {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 52, ../sass/screen.scss */
 h3 {
-  font-style: italic;
-}
+  font-style: italic; }
