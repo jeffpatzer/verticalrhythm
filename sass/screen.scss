@@ -5,13 +5,14 @@
 
 // @import "compass/reset";
 
-@import "_vertical_rhythm.scss";
+// @import "_vertical_rhythm.scss";
+@import "_vertical_rhythmic.scss";
 
 // @import "compass";
 
 $base-font-size: 13px;
 $base-line-height: 24px;
-@include establish-baseline();
+// @include establish-baseline();
 
 h1 {
   // @include adjust-font-size-to(24px);
