@@ -15,3 +15,7 @@ This allows you to play around with Compass's mixins for Vertical Rhythm.
 
 * http://beta.typecastapp.com/gallery/sherlock-holmes-baseline/
 * http://beta.typecastapp.com/gallery/sherlock-holmes-no-baseline/
+
+## Compile SCSS
+
+    $ scss --watch sass:stylesheets
