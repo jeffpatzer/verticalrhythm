@@ -1,21 +1,155 @@
+@charset "UTF-8";
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-* html {
-  font-size: 81.25%; }
+/*
+    vertical-rhythmic
+    
+    Version : 0.3.0
+    Author  : Aurélien Delogu (dev@dreamysource.fr)
+    License : MIT
+*/
+/*
+    number $base-font-size: base font-size which will be applied to the body (default: 1em)
+*/
+/*
+    number $base-line-height: base line-height which will be applied to the body (default: 1.5em)
+*/
+/*
+    Adjust a unit to be relative if in PX to allow for arithmetic
+*/
+/*
+    Initialize the rhythm
+*/
+/*
+    Return a rhythm
 
-html {
-  font-size: 13px;
-  line-height: 1.846em; }
+    Parameters
+        integer $lines      : number of whitespace lines (default: 1)
+                              You can specify "auto" value and it will generate a proportional value from the base line-height (especially useful when you want to set a good line-height value)
+        number $font-size   : font size, in ems
+*/
+/*
+    Return a rhythm from pixel unit
+
+    Parameters
+        integer $width      : width of the rhythm (without px unit)
+        number $font-size   : font size, in ems
+*/
+/*
+    Set a new font-size and automatically adapt the line-height
+
+    Parameters
+        number $font-size   : font size, in ems
+        integer $lines      : number of whitespace lines for the line-height
+                              Keeps base line proportions by default
+*/
+/*
+    Add a margin around a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top margin to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a bottom margin to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a padding around a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top padding to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a bottom padding to a box
+
+    Parameters
+        integer $lines          : number of whitespace lines (default: 1)
+        number $font-size       : actual font-size, in ems, to calculate with (default: 1em)
+        integer $border-width   : width of additionnal borders around the box
+                                  Useful to substract borders from the whitespace to not break the rhythm
+*/
+/*
+    Add a top border around a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add a top border to a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add a bottom border to a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : border type
+*/
+/*
+    Add an outline around a box
+
+    Parameters
+        string $color       : color
+        number $font-size   : font-size of the box (in em)
+        integer $width      : border width
+                              It quite equals to pixels but it depends on the base font-size of the browser, so it takes no unit
+        string $type        : outline type
+*/
+h1 {
+  font-size: 24px;
+  line-height: 1em; }
 
 h2 {
-  font-size: 1.385em;
-  line-height: 1.333em; }
+  font-size: 18px;
+  line-height: 1em; }
 
 h3 {
-  font-size: 1.077em;
-  line-height: 1.714em; }
+  font-size: 14px;
+  line-height: 1.071em; }
 
 h1, h2 {
   font-weight: bold; }
